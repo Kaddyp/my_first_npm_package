@@ -1,0 +1,26 @@
+{
+  "name": "ts-say-hello",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://google.com/",
+  "repository": {
+    "url": "git+https://github.com/Kaddyp/my_first_npm_package.git"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "test",
+    "node",
+    "npm"
+  ],
+  "author": "kadddyp2805",
+  "license": "MIT",
+  "description": "This ts test package.",
+  "dependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  }
+}
